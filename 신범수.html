@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오</title>
+    <link rel="stylesheet" href="신범수.css">
+
+</head>
+<body>
+    <header>
+        <h1>신범수 Projects</h1>
+        <p>AI Developer | Proficient in Azure and Machine Learning Solutions</p>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#about">About Me</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    
+    <section id="projects">
+        <h2>Bad Posture Detection System</h2>
+        <div class="image-row">
+            <img src="images/cuk1.png" alt="척추요정">
+            <img src="images/cuk2.png" alt="자세 불량 프로그램 사용">
+        </div>
+
+        <div class="accordion">
+            <button class="accordion-btn">Show Video</button>
+            <div class="accordion-content">
+            <video width="100%" controls>
+                <source src="videos/pose1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            </div>
+        </div>
+        
+        <p>Developed a machine learning-based system for detecting improper posture, including forward head posture, using Azure OpenAI with Retrieval-Augmented Generation (RAG) for customization. The system leverages Custom Vision to classify forward head posture and utilizes MediaPipe to analyze skeletal positions and detect other types of improper posture in real-time.</p>
+    
+        <ul>
+        <li><strong>Technologies used:</strong>Azure OpenAI, Azure Custom Vision, Python, OpenCV, MediaPipe</li>
+        <li><strong>Role:</strong> System Developer/ Azure Solutions Architect</li>
+        <li><strong>Achievements:</strong> Successfully integrated real-time posture correction alerts, customized AI models using Azure Custom Vision, and implemented AzureOpenAI with RAG (Retrieval-Augmented Generation) for enhanced posture analysis.</li>
+
+
+        </ul>
+    
+        <!-- <a href="https://github.com/yourprofile/posture-detection" target="_blank">View on GitHub</a> -->
+    </section>
+
+
+    <section id="projects">
+        <h2>AI Zoo App</h2>
+        <div class="image-row">
+            <img src="images/ani1.png" alt="ai 앱 소개">
+            <img src="images/ani2.png" alt="unity 시연">
+        </div>
+
+        <div class="accordion">
+            <button class="accordion-btn" id="iosBtn">Show iOS Video</button>
+            <div class="accordion-content" id="iosVideo">
+                <video width="100%" controls>
+                    <source src="videos/ios.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        
+        <div class="accordion">
+            <button class="accordion-btn" id="androidBtn">Show Android (Unity) Video</button>
+            <div class="accordion-content" id="androidVideo">
+                <video width="100%" controls>
+                    <source src="videos/android(unity).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        
+        <p>Developed a user-friendly mobile application designed for use in zoos to categorize and provide detailed information on various animals. The app includes a feature that specifically identifies and provides names for well-known animals, offering visitors a personalized and informative experience.</p>
+        
+        <ul>
+        <li><strong>Technologies used:</strong>Azure Custom Vision, Python, OpenCV, SwiftUI, Unity</li>
+        <li><strong>Role:</strong> Full-stack developer(IOS)</li>
+        <li><strong>Achievements:</strong> Demonstrated the importance of image preprocessing and successfully developed the app using RestAPI integration.</li>
+        </ul>
+
+        <!-- <a href="https://github.com/yourprofile/pet-care-app" target="_blank">View on GitHub</a> -->
+        </section>
+
+    <section id="projects">
+        <h2>Temperature and Humidity Control Interface for Incubator</h2>
+        <div class="image-row">
+            <img src="images/inq2.png" alt="넥션 HMI">
+            <img src="images/inq1.png" alt="인큐베이터 전경">
+        </div>
+        <p>Developed a Temperature and Humidity Control Interface for an incubator using HMI programming, integrated with Arduino for precise environmental control. The system allows real-time monitoring and adjustment of temperature and humidity levels, ensuring optimal conditions within the incubator.</p>
+    
+        <ul>
+        <li><strong>Technologies used:</strong> C++, Arduino, HMI Programming(Nextion HMI)</li>
+        <li><strong>Role:</strong> HMI Developer and Environmental Control System Programmer</li>
+        <li><strong>Achievements:</strong> Achieved stable temperature and humidity control, and developed input and UI design through HMI.</li>
+        </ul>
+    
+        <!-- <a href="https://github.com/yourprofile/posture-detection" target="_blank">View on GitHub</a> -->
+    </section>
+
+    <section id="about">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>저는 팀원들과의 협력을 중시하며, Azure 서비스를 이용한 앱 개발 경험이 강점인 열정적인 개발자입니다.</p>
+            <p>다양한 프로젝트를 진행하면서 항상 최선을 다해왔으며, 팀원들과의 원활한 소통과 협업을 통해 불화를 겪지 않고 성공적으로 프로젝트를 완료해왔습니다.</p>
+            <p>저는 새로운 기술을 배우고 이를 실무에 적용하는 데 큰 열정을 가지고 있으며, 언제나 새로운 도전을 기꺼이 받아들일 준비가 되어 있습니다.</p>
+            <p>앞으로도 다양한 기술을 활용하여 실질적인 가치를 창출하는 프로젝트에 기여하고자 합니다.</p>
+            <p>저의 목표는 기술과 사용자 간의 격차를 줄이고, 더 편한 사용자 경험을 제공하는 프로그램을 개발하는 것입니다.</p>
+        </section>
+        
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: qjatnekt567@gmail.com</p>
+        <!-- <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p> -->
+    </section>
+
+    <script src="신범수.js"></script>
+</body>
+</html>
